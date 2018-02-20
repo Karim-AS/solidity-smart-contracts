@@ -182,5 +182,10 @@ contract Democracy {
         //A été éxécuter
         proposals[index].executed = true;
     }
+    function kill() isowner(){
+           delete owner;
+           delete restaurant;
+           selfdestruct(msg.sender);
+       }
 
 }
