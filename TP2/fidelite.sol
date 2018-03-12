@@ -1,5 +1,6 @@
 pragma solidity ^0.4.6;
 
+<<<<<<< HEAD
 // Abstract contract for the full ERC 20 Token standard
 // https://github.com/ethereum/EIPs/issues/20
 pragma solidity ^0.4.18;
@@ -119,6 +120,8 @@ contract EIP20 is EIP20Interface {
     }   
 }
 
+=======
+>>>>>>> parent of 177c784... Update fidelite.sol
 contract Fidelity {
 
   //Client
