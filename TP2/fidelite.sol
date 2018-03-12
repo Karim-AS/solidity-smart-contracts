@@ -56,11 +56,6 @@ Implements EIP20 token standard: https://github.com/ethereum/EIPs/issues/20
 .*/
 
 
-pragma solidity ^0.4.18;
-
-import "./EIP20Interface.sol";
-
-
 contract EIP20 is EIP20Interface {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
